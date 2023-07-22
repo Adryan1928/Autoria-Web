@@ -84,13 +84,14 @@ header div#perfil div#name > div img {
     height: 17px;
 }
 
-header div#perfil div#name > div > p {
+header div#perfil div#name > div > a {
     color: #737380;
     font-family: Roboto;
     font-size: 16px;
     font-weight: 400;
     margin: 0;
     padding: 0;
+    text-decoration: none;
 }
 
 main {
