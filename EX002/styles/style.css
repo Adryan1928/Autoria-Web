@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+html, body {
+    background-color: #f5f5f5;
+    width: 1440px;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div#img {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+p {
+    line-height: 1.5em;
+}
+
+img {
+    border-radius: 15px;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    color: rgb(9, 236, 161);
+}
+
+h3 {
+    border-left: 5px solid rgb(9, 236, 161);
+    padding-left: 5px;
+}
+
+li {
+    list-style-type: none;
+}
