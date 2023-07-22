@@ -1,0 +1,138 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Lexend:wght@700&family=Roboto&display=swap');
+
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #ffffff;
+    padding: 6px 24px 6px 27px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+header img#logo {
+    width: 95px;
+    height: 92px;
+}
+
+header div#search {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+    /* margin: 0px 36px 0px 26px; */
+}
+
+header div#search div#barraPesquisa {
+    width: 944px;
+    height: 45px;
+    border-radius: 5px;
+    background: #F0F0F0;
+}
+
+header div#search img#iconSearchImg {
+    width: 24px;
+    height: 24px;
+}
+
+header div#search div#iconSearchDiv {
+    background-color: #8239f2;
+    border-radius: 8px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header div#perfil {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+}
+
+header div#perfil div#img {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    background-color: #d9d9d9;
+}
+
+header div#perfil div#name > p {
+    font-family: inter;
+    color: #41414D;
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0px 0px 9px 0px;
+    padding: 0;
+}
+
+header div#perfil div#name > div {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+}
+
+header div#perfil div#name > div img {
+    width: 17px;
+    height: 17px;
+}
+
+header div#perfil div#name > div > p {
+    color: #737380;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    padding: 67px 68px 0px 68px;
+    background-color: #5de9c6;
+
+    display: flex;
+    justify-content: center;
+}
+
+main section {
+    background-color: #ffffff;
+    width: 100%;
+    padding: 33px 30px 0px 30px;
+    border-radius: 5px;
+}
+
+main section h1 {
+    color: #8239F2;
+    font-family: Lexend;
+    font-size: 48px;
+    font-weight: 700;
+    margin: 0px;
+    padding: 0px;
+}
+
+main section section#books {
+    padding: 34px 0px 0px 0px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+main section section#books div.book {
+    width: 148px;
+    height: 226px;
+    background-color: #D9D9D9;
+}
+
+main section section#books img.book {
+    width: 148px;
+    height: 226px;
+}
