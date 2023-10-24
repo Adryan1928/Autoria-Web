@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade de Irlan</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-zinc-800" >
+    <header class="text-zinc-50 md:px-10 xl:px-60 flex justify-between my-8">
+        <h1 class="text-2xl">Barbosa</h1>
+        <nav class="flex gap-3 items-center">
+            <div class="flex gap-3 text-sm text-zinc-200">
+                <p>Fotos</p>
+                <p>Comunidade</p>
+                <p>sobre</p>
+                <p>Contato</p>
+            </div>
+            <div class="flex h-4 gap-2">
+                <img src="img/facebook.png" alt="facebook">
+                <img src="img/instagram.png" alt="instagram">
+                <img src="img/twitter.png" class="h-6" alt="twitter">
+            </div>
+            <Button class="bg-zinc-400 p-3">Reservar quarto</Button>
+        </nav>
+    </header>
+    <main class="text-zinc-50 md:w-4/12 w-4/5 m-auto">
+        <h2 class="text-2xl font-medium">Formulário de Cadastro</h2>
+        <form action="">
+            <div class="md:flex gap-12">
+                <div class="md:w-3/5 flex flex-col gap-1">
+                    <label for="name">Nome:</label>
+                    <input type="text" name="name" id="name" class="w-full rounded text-zinc-950 p-px">
+                </div>
+                <div class="md:w-2/5 flex flex-col gap-1">
+                    <label for="cpf">CPF:</label>
+                    <input type="text" name="cpf" id="cpf" class="w-full rounded text-zinc-950 p-px" required maxlength="14">
+                </div>
+            </div>
+
+            <div class="md:flex gap-12">
+                <div class="flex flex-col gap-1">
+                    <label for="sex">Sexo:</label>
+                    <div class="flex gap-1">
+                        <div class="flex gap-1">
+                            <input type="radio" name="sex" id="mas">
+                            <label for="mas" class="radio">Masculino</label>
+                        </div>
+                        <div class="flex gap-1">
+                            <input type="radio" name="sex" id="fem">
+                            <label for="fem" class="radio">Feminino</label>
+                        </div>
+                        <div class="flex gap-1">
+                            <input type="radio" name="sex" id="out">
+                            <label for="out" class="radio">Outro</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex flex-col gap-1 w-full">
+                    <label for="date">Data de nascimento:</label>
+                    <input type="date" name="date" id="date" class="w-full rounded text-zinc-950 p-px">
+                </div>
+            </div>
+
+            <div>
+                <label for="email">E-mail:</label>
+                <input type="email" name="email" id="email" class="w-full rounded text-zinc-950 p-px">
+            </div>
+
+            <div class="md:flex gap-12">
+                <div class="md:w-4/5 flex flex-col gap-1">
+                    <label for="rua">Rua:</label>
+                    <input type="text" name="rua" id="rua" class="w-full rounded text-zinc-950 p-px">
+                </div>
+                <div class="md:w-1/5 flex flex-col gap-1">
+                    <label for="num">Número:</label>
+                    <input type="number" name="num" id="num" class="w-full rounded text-zinc-950 p-px">
+                </div>
+            </div>
+
+            <div class="md:flex gap-4">
+                <div class="md:w-11/12 flex flex-col gap-1">
+                    <label for="cit">Cidade:</label>
+                    <input type="text" name="cit" id="cit" class="w-full rounded text-zinc-950 p-px">
+                </div>
+                <div class="flex flex-col gap-1">
+                    <label for="uf">UF:</label>
+                    <select name="uf" id="uf" class="w-full rounded text-zinc-950 p-px">
+                        <option value="rn">Rio Grande do Norte</option>
+                    </select>
+                </div>
+            </div>
+
+            <div>
+                <div class="md:flex gap-28">
+                    <div class="md:w-1/2 flex flex-col gap-1">
+                        <label for="numAd">Número de adultos:</label>
+                        <input type="number" name="numAd" id="numAd" class="w-full rounded text-zinc-950 p-px">
+                    </div>
+                    <div class="md:w-1/2 flex flex-col gap-1">
+                        <label for="numCr">Número de crianças:</label>
+                        <input type="number" name="numCr" id="numCr" class="w-full rounded text-zinc-950 p-px">
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex justify-center mt-3">
+                <button class="bg-blue-500 hover:bg-blue-400 duration-200 w-3/4 rounded text-sm py-1">Reservar</button>
+            </div>
+        </form>
+    </main>
+    <footer class="mt-44 mb-6 text-zinc-50 text-sm md:px-10 xl:px-60 flex justify-between">
+        <div class="flex flex-col gap-4">
+            <h2 class="text-2xl">Barbosa</h2>
+            <div class="flex h-4 w-4 gap-2">
+                <img src="img/facebook.png" alt="facebook">
+                <img src="img/instagram.png" alt="instagram">
+                <img src="img/twitter.png" class="h-6" alt="twitter">
+            </div>
+        </div>
+        <div class="text-zinc-500 flex flex-col gap-2">
+            <p>Fotos</p>
+            <p>Comunidades</p>
+            <p>Sobre</p>
+            <p>Contato</p>
+        </div>
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+</html>
